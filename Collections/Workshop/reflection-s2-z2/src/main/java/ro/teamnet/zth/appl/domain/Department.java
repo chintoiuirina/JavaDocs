@@ -11,7 +11,7 @@ import ro.teamnet.zth.api.annotation.Table;
 public class Department {
 
     @Id(name = "DEPARTMENT_ID")
-    private Long id;
+    private Integer id;
 
     @Column(name="DEPARTMENT_NAME")
     private String departmentName;
@@ -19,11 +19,11 @@ public class Department {
     @Column(name="LOCATION_ID")
     private Location location;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

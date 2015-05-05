@@ -51,3 +51,6 @@ public class ColumnInfo {
         this.columnType = columnType;
     }
 }
+
+
+
